@@ -33,14 +33,69 @@ nav span{
   display: inline-block;
   margin: 0 8px;
 }
+header{
+  background-image: url(images/city-scape.svg);
+  height: 500px;
+}
+header div{
+  height: 100px;
+}
 header img{
-  height: 40px;
-  margin: 10px;
+  height: 50px;
+  margin: 15px;
 }
 header input{
-  width: 400px;
-  margin: 10px;
+  width: 1250px;
+  margin: 20px;
+  height: 30px;
+  background-color: rgb(31, 82, 111);
+  padding: 5px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+header a{
+  margin: 30px 10px;
+  color: white;
+}
+header h1,header p{
+  color: white;
+  margin-left: 350px;
+}
+header bottom{
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(240, 146, 51);
+  margin-left: 350px;
 }
 .header-float{
+  width: 100%;
+}
+.header-float * {
   float: left;
+}
+#orgs{
+  width: 100%;
+  background-color: rgb(39, 53, 71);
+}
+#orgs img{
+  width: 500px;
+  margin: 30px 10px 30px 300px;
+}
+#orgs h2,#orgs p{
+  color: white;
+  margin: 30px 200px 30px 50px;
+}
+#orgs li{
+  list-style: circle;
+  color: white;
+  margin-left: 70px;
+  margin-right: 200px;
+}
+#orgs div{
+  float: right;
+}
+#npm{
+  background-image: url(images/forklift.svg);
+  height: 500px;
+  color: white;
 }
